@@ -20,10 +20,13 @@ namespace CarLotSimulator
             CarLot inStock = new CarLot();
 
             Car carOne = new Car();
-            Car carTwo = new Car(2022, "Hyundai", "Elantra", "Hum", "Beep", true); 
+            Console.WriteLine($"Number of Cars in the Lot: {CarLot.numberOfCars}");
+            Car carTwo = new Car(2022, "Hyundai", "Elantra", "Hum", "Beep", true);
+            Console.WriteLine($"Number of Cars in the Lot: {CarLot.numberOfCars}");
             Car carThree = new Car() { Year = 1985, Make = "Ford", Model ="Mustang", EngineNoise = "vroom", HonkNoise = "awoogah", IsDrivable = true};
+            Console.WriteLine($"Number of Cars in the Lot: {CarLot.numberOfCars}");
 
-            
+
 
             carOne.Year = 2002;
             carOne.Make = "Toyota";
